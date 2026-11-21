@@ -46,6 +46,10 @@ The complete component list is also available in [`Tinkerspace PCB.csv`](Tinkers
 
 The ₹0.50 unit prices for the axial resistor and timing capacitor are assumptions for a bulk order of around 300 pieces. The USB-C receptacle is estimated at ₹7.00 per unit, and the NE555P timer IC is estimated at ₹4.00–₹7.00 per unit. PCB fabrication is estimated at ₹23.00–₹28.00 per board. Other component prices are indicative bulk unit prices and should be confirmed with suppliers before procurement. These figures are per-badge estimates, not the total cost of producing 300 badges.
 
+## Schematic
+
+![Schematic](gerbers/schematic.png)
+
 ## Fabrication files
 
 The `SpaceCarnival_PCBBadge` folder contains the Gerber and drill files exported for PCB fabrication.
