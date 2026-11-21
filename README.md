@@ -19,7 +19,7 @@ The idea is to make the badge more than something you wear — it's something yo
 
 | Front view | Back view |
 | --- | --- |
-| [Front view](docs/images/front.png) | [Back view](docs/images/back.png) |
+| ![Front view](docs/images/front.png) | ![Back view](docs/images/back.png) |
 
 *The LEDs appear red in the preview images. The actual badge will use alternating yellow and blue LEDs, switching between each other as the circuit cycles between HIGH and LOW states.*
 
