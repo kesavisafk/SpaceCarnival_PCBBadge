@@ -48,7 +48,7 @@ The ₹0.50 unit prices for the axial resistor and timing capacitor are assumpti
 
 ## Schematic
 
-![Schematic](gerbers/schematic.png)
+![Schematic](docs/images/schematic.png)
 
 ## Fabrication files
 
