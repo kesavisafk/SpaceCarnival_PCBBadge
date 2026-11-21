@@ -15,7 +15,7 @@ The idea is to make the badge more than something you wear — it's something yo
 
 ### Preview
 
-<!-- Add images to the repository (for example, docs/images/) and replace these placeholders with their paths. -->
+
 
 | Front view | Back view |
 | --- | --- |
@@ -67,7 +67,7 @@ The `SpaceCarnival_PCBBadge` folder contains the Gerber and drill files exported
 
 ## PCB layout
 
-<!-- Insert screenshots or exported views of the PCB layout. -->
+
 
 | Front layout | Back layout |
 | --- | --- |
