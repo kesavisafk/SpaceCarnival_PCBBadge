@@ -26,7 +26,7 @@ The idea is to make the badge more than something you wear — it's something yo
 
 ## Bill of materials
 
-The complete component list is also available in [`Tinkerspace PCB.csv`](Tinkerspace%20PCB.csv). The table below summarises the parts used on one badge. Prices are indicative unit estimates based on bulk sourcing at approximately 300 pieces; actual supplier quotations may vary and may exclude GST, shipping, and minimum-order charges.
+The complete component list is also available in [`Tinkerspace PCB.csv`](gerbers/Tinkerspace%20PCB.csv). The table below summarises the parts used on one badge. Prices are indicative unit estimates based on bulk sourcing at approximately 300 pieces; actual supplier quotations may vary and may exclude GST, shipping, and minimum-order charges.
 
 | Designator | Qty. per badge | Component | Package / value | Estimated unit price | Estimated line total | Source |
 | --- | ---: | --- | --- | ---: | ---: | --- |
