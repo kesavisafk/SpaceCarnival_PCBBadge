@@ -43,6 +43,9 @@ The complete component list is also available in [`Tinkerspace PCB.csv`](gerbers
 **Estimated component cost per badge: ₹17.92–₹20.92.**  
 **Estimated PCB fabrication cost per badge: ₹23.00–₹28.00.**  
 **Estimated total per badge, including PCB fabrication: ₹40.92–₹48.92** (excluding assembly, GST, and shipping).
+A confirmed fabrication quote could not be obtained from Lion Circuits because a website error prevented the Gerber files from being uploaded.
+
+docs/images/lion-circuits-upload-error.png
 
 The ₹0.50 unit prices for the axial resistor and timing capacitor are assumptions for a bulk order of around 300 pieces. The USB-C receptacle is estimated at ₹7.00 per unit, and the NE555P timer IC is estimated at ₹4.00–₹7.00 per unit. PCB fabrication is estimated at ₹23.00–₹28.00 per board. Other component prices are indicative bulk unit prices and should be confirmed with suppliers before procurement. These figures are per-badge estimates, not the total cost of producing 300 badges.
 
