@@ -71,7 +71,7 @@ The `SpaceCarnival_PCBBadge` folder contains the Gerber and drill files exported
 
 | Front layout | Back layout |
 | --- | --- |
-| [Front layout](docs/images/front-layout.png) | [Back layout](docs/images/back-layout.png) |
+| ![Front layout](docs/images/front-layout.png) | ![Back layout](docs/images/back-layout.png) |
 
 
 ## Submission notes
