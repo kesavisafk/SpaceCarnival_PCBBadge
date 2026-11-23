@@ -81,7 +81,29 @@ The `SpaceCarnival_PCBBadge` folder contains the Gerber and drill files exported
 | ![Front layout](docs/images/front-layout.png) | ![Back layout](docs/images/back-layout.png) |
 
 
+## Design files
+
+The files in this repository are laid out like this:
+
+```
+SpaceCarnival_PCBBadge/
+├── README.md
+├── LICENSE
+├── gerbers/
+│   ├── SpaceCarnival_PCBBadge.zip    # Gerber and drill files, upload this to your PCB fab
+│   ├── Tinkerspace PCB.csv           # bill of materials
+│   └── Tinkerspace PCB.pdf           # printable schematic
+└── docs/
+    └── images/                       # preview, layout and schematic pictures used in this README
+```
+
+The Gerber zip holds the copper, solder mask, silkscreen, paste, board outline and drill files exported from KiCad.
+
+
 ## Submission notes
 
-This project is a competition entry for Space Carnival 2026. The files and images in this repository are intended to present the badge design and provide the PCB fabrication data for review.
+This project is a competition entry for Space Carnival 2026. The files and images in this repository are intended to present the badge design and provide the PCB fabrication data for review. Made for the TinkerSpace community in Kochi, designed by kesavisafk.
 
+## License
+
+The design files and documentation in this repository are released under the MIT License, see [`LICENSE`](LICENSE). The TinkerSpace and Space Carnival names and logos belong to their respective owners and are not covered by it.
