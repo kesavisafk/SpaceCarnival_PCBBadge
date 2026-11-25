@@ -26,7 +26,7 @@ The idea is to make the badge more than something you wear — it's something yo
 
 ## Bill of materials
 
-The BOM costings are based on the 300-piece purchase quantities where bulk pricing is applicable. The 6-pin USB-C receptacle is the exact connector selected for this board, with its 300–499 quantity tier listed by KTRON. PCB fabrication uses the Lion Circuits quote for 300 boards; the NRE charge is excluded.
+The complete component list is also available in [`Tinkerspace PCB BOM.csv`](gerbers/Tinkerspace PCB BOM.csv). The table below summarises the parts used on one badge. Prices are indicative unit estimates based on bulk sourcing at approximately 300 pieces; actual supplier quotations may vary and may exclude GST, shipping, and minimum-order charges.
 
 
 | Designator | Qty. per badge | Component | Package / value | Unit price (INR) | Line total (INR) | Source |
@@ -104,9 +104,9 @@ SpaceCarnival_PCBBadge/
 ├── README.md
 ├── LICENSE
 ├── gerbers/
-│   ├── SpaceCarnival_PCBBadge.zip    # Gerber and drill files, upload this to your PCB fab
-│   ├── Tinkerspace PCB.csv           # bill of materials
-│   └── Tinkerspace PCB.pdf           # printable schematic
+│   ├── SpaceCarnival_PCBBadge.zip        # Gerber and drill files, upload this to your PCB fab
+│   ├── Tinkerspace PCB BOM.csv           # bill of materials
+│   └── Tinkerspace PCB.pdf               # printable schematic
 └── docs/
     └── images/                       # preview, layout and schematic pictures used in this README
 ```
