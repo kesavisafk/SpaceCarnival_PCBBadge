@@ -1,0 +1,16 @@
+﻿Designator,Footprint,Qty per badge,Component/value,Unit price INR,Line total INR,Source / pricing basis
+R1,R_0805_2012Metric,1,1 kΩ 0805 resistor,0.06,0.06,Adinath SMD chip resistor listing; bulk unit price previously used
+R5,R_0805_2012Metric,1,330 kΩ 0805 resistor,0.06,0.06,Adinath SMD chip resistor listing; bulk unit price previously used
+J1,Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal,1,6-pin SMD USB-C receptacle,4.08,4.08,KTRON published 300–499 qty tier; https://www.ktron.in/product/6-pin-usb-type-c-connector-smd/
+"R8,R6,R9,R7",R_0805_2012Metric,4,150Ω 0805 resistors,0.06,0.24,Adinath SMD chip resistor listing; bulk unit price previously used
+"D6,D8,D5,D7",LED_D3.0mm,4,Blue 3mm LEDs,0.4,1.6,Adinath through-hole LED listing; bulk unit price previously used
+"D4,D2,D3,D1",LED_D3.0mm,4,Yellow 3mm LEDs,0.4,1.6,Adinath through-hole LED listing; bulk unit price previously used
+TP2,TestPoint_Pad_2.5x2.5mm,1,Ground contact pad,Included in PCB fabrication,—,PCB pad
+TP1,TestPoint_Pad_2.5x2.5mm,1,Signal contact pad,Included in PCB fabrication,—,PCB pad
+R4,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,1kΩ axial 1/4W resistor,1.0,1.0,Bulk cost used for 300 pcs; supplier listing https://electronicspices.com/product-category/all-electronics-components/resistors/1-4-watts-resistors/page/1
+Q1,TO-92_Inline,1,BC557 PNP transistor,2.24,2.24,Sunrom product listing https://www.sunrom.com/p/bc557
+U1,DIP-8_W7.62mm,1,NE555P timer IC,5.07,5.07,Electronic Spices pack listing https://electronicspices.com/product/ne555p-precision-timer-dip-8-pins-ic-chip-pack-of-50pcs
+"R3,R2",R_0805_2012Metric,2,5.1kΩ 0805 resistors,0.06,0.12,Adinath SMD chip resistor listing; bulk unit price previously used
+C1,CP_Radial_D5.0mm_P2.00mm,1,1µF radial capacitor,1.0,1.0,Bulk cost used for 300 pcs; supplier https://electronicspices.com/
+PCB,,1,PCB fabrication (300-board quote; NRE excluded),30.12,30.12,Lion Circuits quotation screenshot
+TOTAL,,1,"Total per badge including PCB, excluding NRE",,47.19,Calculated: components ₹17.07 + PCB ₹30.12
