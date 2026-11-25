@@ -26,28 +26,42 @@ The idea is to make the badge more than something you wear — it's something yo
 
 ## Bill of materials
 
-The complete component list is also available in [`Tinkerspace PCB.csv`](gerbers/Tinkerspace%20PCB.csv). The table below summarises the parts used on one badge. Prices are indicative unit estimates based on bulk sourcing at approximately 300 pieces; actual supplier quotations may vary and may exclude GST, shipping, and minimum-order charges.
+The BOM costings are based on the 300-piece purchase quantities where bulk pricing is applicable. The 6-pin USB-C receptacle is the exact connector selected for this board, with its 300–499 quantity tier listed by KTRON. PCB fabrication uses the Lion Circuits quote for 300 boards; the NRE charge is excluded.
 
-| Designator | Qty. per badge | Component | Package / value | Estimated unit price | Estimated line total | Source |
+
+| Designator | Qty. per badge | Component | Package / value | Unit price (INR) | Line total (INR) | Source |
 | --- | ---: | --- | --- | ---: | ---: | --- |
-| R1, R2, R3, R5–R9 | 8 | Resistors | 0805; 1 kΩ, 5.1 kΩ, 150 Ω, 330 kΩ | ₹0.06 | ₹0.48 | [Adinath Electronics – 0805 SMD resistors](https://www.adinathelectronics.com/sitemap.html) |
-| R4 | 1 | Resistor | Axial, 1 kΩ | ₹0.50 (assumed) | ₹0.50 | Local electronics suppliers |
-| D1–D4 | 4 | Yellow LEDs | 3 mm through-hole | ₹0.40 | ₹1.60 | [Adinath Electronics – 3 mm yellow LED](https://www.adinathelectronics.com/sitemap.html) |
-| D5–D8 | 4 | Blue LEDs | 3 mm through-hole | ₹0.40 | ₹1.60 | [Adinath Electronics – 3 mm blue LED](https://www.adinathelectronics.com/sitemap.html) |
-| U1 | 1 | NE555P timer IC | DIP-8 | ₹4.00–₹7.00 (estimated) | ₹4.00–₹7.00 | Electronics component suppliers (bulk estimate) |
-| Q1 | 1 | BC557 PNP transistor | TO-92 | ₹2.24 | ₹2.24 | [Sunrom Electronics](https://www.sunrom.com/) |
-| C1 | 1 | Timing capacitor | 1 µF, radial | ₹0.50 (assumed) | ₹0.50 | Local electronics suppliers |
-| J1 | 1 | USB-C receptacle | GCT USB4125 series, 6-pin | ₹7.00 (estimated) | ₹7.00 | [GCT](https://gct.co/) / electronics distributors |
-| TP1, TP2 | 2 | Contact / test pads | PCB pads | Included in PCB fabrication | — | Part of the PCB copper layout |
+| R1 | 1 | SMD resistor | 0805, 1 kΩ | ₹0.06 | ₹0.06 | [Adinath – SMD chip resistors](https://www.adinathelectronics.com/chip-resistors.html) |
+| R5 | 1 | SMD resistor | 0805, 330 kΩ | ₹0.06 | ₹0.06 | [Adinath – SMD chip resistors](https://www.adinathelectronics.com/chip-resistors.html) |
+| R8, R6, R9, R7 | 4 | SMD resistors | 0805, 150 Ω | ₹0.06 | ₹0.24 | [Adinath – SMD chip resistors](https://www.adinathelectronics.com/chip-resistors.html) |
+| R3, R2 | 2 | SMD resistors | 0805, 5.1 kΩ | ₹0.06 | ₹0.12 | [Adinath – SMD chip resistors](https://www.adinathelectronics.com/chip-resistors.html) |
+| R4 | 1 | Axial resistor | 1 kΩ, 1/4 W | ₹1.00 (bulk cost used for 300 pcs) | ₹1.00 | [Electronic Spices – 1 kΩ axial resistor](https://electronicspices.com/product-category/all-electronics-components/resistors/1-4-watts-resistors/page/1) |
+| D1–D4 | 4 | Yellow LEDs | 3 mm through-hole | ₹0.40 | ₹1.60 | [Adinath – through-hole LEDs](https://www.adinathelectronics.com/led-display.html) |
+| D5–D8 | 4 | Blue LEDs | 3 mm through-hole | ₹0.40 | ₹1.60 | [Adinath – through-hole LEDs](https://www.adinathelectronics.com/led-display.html) |
+| U1 | 1 | NE555P timer IC | DIP-8 | ₹5.07 | ₹5.07 | [Electronic Spices – NE555P, pack of 50](https://electronicspices.com/product/ne555p-precision-timer-dip-8-pins-ic-chip-pack-of-50pcs) |
+| Q1 | 1 | BC557 PNP transistor | TO-92 | ₹2.24 | ₹2.24 | [Sunrom – BC557](https://www.sunrom.com/p/bc557) |
+| C1 | 1 | Radial capacitor | 1 µF | ₹1.00 (bulk cost used for 300 pcs) | ₹1.00 | [Electronic Spices – capacitor supplier](https://electronicspices.com/) |
+| J1 | 1 | USB-C receptacle | 6-pin SMD | ₹4.08 (300–499 qty tier) | ₹4.08 | [KTRON – 6-pin USB Type-C SMD](https://www.ktron.in/product/6-pin-usb-type-c-connector-smd/) |
+| TP1, TP2 | 2 | Contact pads | PCB copper pads | Included in PCB | — | PCB copper layout |
 
-**Estimated component cost per badge: ₹17.92–₹20.92.**  
-**Estimated PCB fabrication cost per badge: ₹23.00–₹28.00.**  
-**Estimated total per badge, including PCB fabrication: ₹40.92–₹48.92** (excluding assembly, GST, and shipping).
-A confirmed fabrication quote could not be obtained from Lion Circuits because a website error prevented the Gerber files from being uploaded.
+### PCB fabrication (300 boards)
 
-![Lion Circuits upload error](docs/images/lion-circuits-upload-error.png)
+- PCB fabrication unit price: ₹30.12 per board
+- Quantity: 300 boards
+- NRE charge excluded
 
-The ₹0.50 unit prices for the axial resistor and timing capacitor are assumptions for a bulk order of around 300 pieces. The USB-C receptacle is estimated at ₹7.00 per unit, and the NE555P timer IC is estimated at ₹4.00–₹7.00 per unit. PCB fabrication is estimated at ₹23.00–₹28.00 per board. Other component prices are indicative bulk unit prices and should be confirmed with suppliers before procurement. These figures are per-badge estimates, not the total cost of producing 300 badges.
+![Lion Circuits fabrication quote for 300 PCBs](docs/images/lion-circuits-quote.png)
+
+### Cost per badge
+
+| Cost item | Per-badge cost |
+| --- | ---: |
+| Electronic components subtotal | ₹17.07 |
+| PCB fabrication (300 boards, ₹30.12 each; NRE excluded) | ₹30.12 |
+| **Total per badge** | **₹47.19** |
+
+The resistor and capacitor are listed at ₹1 each as the bulk cost used for a 300-piece run; these are budgeting prices, not separately confirmed supplier quantity quotes. KTRON lists the USB-C receptacle at ₹4.08 each in the 300–499 quantity tier. Component subtotal excludes assembly, shipping, and taxes not already included in supplier prices.
+
 
 ## Schematic
 
